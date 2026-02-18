@@ -69,26 +69,21 @@ This project uses **Playwright** and **TypeScript** to automate end-to-end tests
 
 ---
 
-Here are official Playwright documentation links for all tools and technologies used in this project, formatted for your README.md:
-
----
-
 ## Prompts Used
 
 ### Initial Test Plan Prompt
 
-```
-Using Playwright and playwright-test-planner, outline positive and negative test cases for https://the-internet.herokuapp.com/login
-* Go to https://the-internet.herokuapp.com/login and check that the title is "Login Page".
-* Login as tomsmith / SuperSecretPassword!
-* Once on Secure Area, select the Logout button and make sure that when back on the Login Page, that "You logged out of the secure area!" appears.
-```
+
+"Using Playwright and playwright-test-planner, outline positive and negative test cases for https://the-internet.herokuapp.com/login
+* "Go to https://the-internet.herokuapp.com/login and check that the title is "Login Page".
+* "Login as tomsmith / SuperSecretPassword!
+* "Once on Secure Area, select the Logout button and make sure that when back on the Login Page, that "You logged out of the secure area!" appears".
+
 
 ### Test Generation Prompt
 
-```
-Using Playwright + TypeScript and playwright-test-generator, generate the tests for specs/login.plan.md. Refactor locators into page objects, and common elements into a base page.
-```
+"Using Playwright + TypeScript and playwright-test-generator, generate the tests for specs/login.plan.md. Refactor locators into page objects, and common elements into a base page".
+
 
 ### Additional Prompts
 
